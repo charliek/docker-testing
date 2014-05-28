@@ -8,18 +8,18 @@ import (
 
 var base_html = `
 <html>
-  <head>
-  	<title>{{template "title" .}}</title>
-  	<style>
-  		body {
-  			background-color: green;
-  			color: white;
-  		}
-  	</style>
-  </head>
-  <body>
-  	{{template "body" .}}
-  </body>
+	<head>
+		<title>{{template "title" .}}</title>
+		<style>
+			body {
+				background-color: red;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		{{template "body" .}}
+	</body>
 </html>
 `
 
