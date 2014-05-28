@@ -12,7 +12,7 @@ var base_html = `
 		<title>{{template "title" .}}</title>
 		<style>
 			body {
-				background-color: red;
+				background-color: #368BC1;
 				color: white;
 			}
 		</style>
